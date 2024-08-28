@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "next/core-web-vitals",
+    "plugin:react-hooks/recommended" // Include this to get recommended rules for hooks
+  ],
+  "rules": {
+    // Disable exhaustive deps rule if necessary
+    "react-hooks/exhaustive-deps": "off" // Or "off" if you want to completely disable it
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
+}
